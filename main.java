@@ -116,7 +116,7 @@ class Library {
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        System.out.println("------------------Library Management System-------------");
         // Create library and books
         Library library = new Library("City Library");
         library.addBook(new Book("1984", "George Orwell"));
